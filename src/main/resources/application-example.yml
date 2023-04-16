@@ -1,0 +1,9 @@
+ncp:
+  credentials:
+    accessKey: 엑세스키
+    secretKey: 시크릿키
+  s3:
+    bucket: 버킷(저장소) 이름
+    endpoint: https://kr.object.ncloudstorage.com
+  region:
+    static: kr-standard
