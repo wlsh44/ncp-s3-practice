@@ -43,7 +43,7 @@ public class S3Uploader {
     }
 
     private File convertToFile(MultipartFile multipartFile) {
-        File file = new File("/Users/jinho/Desktop/jinho/study/spring/s3-practice/src/main/resources/static/image/" + multipartFile.getOriginalFilename());
+        File file = new File("파일 시스템 쓰기 권한이 있는 경로/" + multipartFile.getOriginalFilename());
         try {
             multipartFile.transferTo(file);
             return file;
